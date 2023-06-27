@@ -1,0 +1,123 @@
+body{
+  background-color: #eeee;
+  
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    display: none;
+}
+body::-webkit-scrollbar-track{
+    background: black;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 68, 0, 0.601);
+    border-radius: 100px;
+}
+.back{
+    position: absolute;
+    top: -1%;
+    left: 0%;
+}
+.ull{
+    position: absolute;
+    top: -5px;
+    left: 55%;
+    list-style: none;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,auto);
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.setrock{
+    position: fixed;
+    font-size: 30px;
+    top: 10px;
+    color:whitesmoke;
+    left: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 100;
+}
+.orange{
+    position: fixed;
+    z-index: 90;
+    width: 50px;
+    height: 35px;
+    left: 60px;
+    top: 10px;
+    background-color: BLACK;
+}
+.rock{
+    position: fixed;
+    font-size: 30px;
+    top: 8px;
+    color:  black;
+    left: 115px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 300px;
+    z-index: 100;
+}
+
+input{
+    position: absolute;
+    width: 600px;
+    left: 35%;
+    top: 55%;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1e1e21;
+    height: 48px;
+  }
+button{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+    border-radius: 6px;
+    background-color: #f3951e;
+    border-color: #f3951e;
+    outline: #f3951e;
+    width: 115px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 51px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .m{
+    position: absolute;
+    top:61%;
+    list-style: none;
+    left: 24.4%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,auto);
+    z-index: 100;
+    column-gap: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.m li{
+    border-radius: 5px;
+    padding-left: 177px;
+    height: 81px;
+    padding-right: 10px;
+    color: #fff;
+    background-color: #1e1e21;
+}
+  .movies{
+    position: absolute;
+  }
+  .movie{
+   
+  }

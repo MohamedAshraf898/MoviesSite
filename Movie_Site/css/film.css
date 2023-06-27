@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  body::-webkit-scrollbar{
+      width: 10px;
+      display: none;
+  }
+  body::-webkit-scrollbar-track{
+   background: black;
+}
+body::-webkit-scrollbar-thumb{
+     background-color:whitesmoke;
+     border-radius: 100px;
+}
+
+.nav{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: black;
+    z-index: 102;
+}
+.home{
+    position: fixed;
+    top: 5px;
+    left: 80%;
+    font-size: 30px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    z-index: 102;
+}
+.lab{
+    position: fixed;
+    padding: 6px;
+    width: 400px;
+    left: 51%;
+    top: 8px;
+    font-size: 17px;
+    color: black;
+    outline:none;
+    border-radius: 5px;
+    border-color: whitesmoke00;
+    text-decoration: none;
+    opacity: 100%;
+    height: 15px;
+    z-index: 100;
+  }
+  .lab:hover::placeholder{
+    color:whitesmoke;
+  }
+  .rock{
+    position: fixed;
+    font-size: 30px;
+    top: 8px;
+    color: whitesmoke;
+    left: 19.5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 300px;
+    z-index: 100;
+}
+.rock:hover{
+    cursor: pointer;
+}
+.setrock{
+    position: fixed;
+    font-size: 30px;
+    top: 8px;
+    color:black;
+    left: 15%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 100;
+}
+.setrock:hover{
+    cursor: pointer;
+}
+.orange{
+    position: fixed;
+    z-index: 90;
+    width: 50px;
+    height: 30px;
+    left: 15%;
+    top: 11px;
+    background-color:whitesmoke;
+}
+.most{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fl{
+    position: absolute;
+    top: 70%;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(6,auto);
+    left: 15%;
+    column-gap: 5px;
+}
+.a{
+    border-radius: 6px; 
+    transition-duration: 0.5s;
+    transition-property: margin,width,height,transform;
+}   
+.a:hover{
+    opacity: 90%;
+    z-index: 100;
+    width: 200px;
+    margin-top: -10px;
+    height: 260px;
+}
+.the{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+.the:hover{
+    opacity: 90%;
+}
+.last{
+    position: absolute;
+    top: 104%;
+    left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.two{
+    position: absolute;
+    top: 109%;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(6,auto);
+    column-gap: 5px;
+    left: 15%;
+}
+.tr{
+    position: absolute;
+    top: 143%;
+    left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.three{
+    position: absolute;
+    top: 148%;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(6,auto);
+    left: 15%;
+    column-gap: 5px;
+}
+.arab{
+    position: absolute;
+    top: 182%;
+    left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.four{
+    position: absolute;
+    top: 187%;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(6,auto);
+    left: 15%;
+    column-gap: 5px;
+}
+.bollywood{
+    position: absolute;
+    top: 221%;
+    left: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.five{
+    position: absolute;
+    top: 226%;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(6,auto);
+    left: 15%;
+    column-gap: 5px;
+}
+.footer{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    top: 260%;
+    background-color: black;
+    z-index: 102;
+}
+.copy{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    min-width: 20px;
+    font-size: 10px;
+    text-decoration: none;
+    color:  whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.copy:hover{
+    color: rgb(149, 9, 9);
+}
+.mohamed{
+    font-weight: bold;
+}
+.mohamed:hover{
+    color: rgb(149, 9, 9);
+}
+.social{
+    position: absolute;
+    top: -18%;
+    left: 73%;
+    list-style: none;
+    column-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: auto;
+    
+}
+li{
+    background-color:  whitesmoke;
+}
+li:hover{
+    background-color: rgb(149, 9, 9);
+}
+a:hover{
+    color: rgb(149, 9, 9);
+}
